@@ -94,6 +94,6 @@ test:
 	@(./test/shell-pipeline-tests/seldon-bike-rentals/pipelines-test-seldon-bike-rentals.sh)
 	@(./test/shell-pipeline-tests/openvino-tensorflow-housing/pipelines-test-openvino-tensorflow-housing.sh)
 
-# This is a generic target to forward any cli-* targets to the cli Makefile
+# This is a generic target to forward any cli-* targets to the cli  Makefile
 cli-%:
 	${MAKE} -C cli $@
